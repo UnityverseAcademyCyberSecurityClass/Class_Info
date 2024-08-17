@@ -11,7 +11,7 @@ def sezar_sifreleme(metin, kaydirma):
 def sezar_sifre_cozme(sifreli_metin, kaydirma):
     return sezar_sifreleme(sifreli_metin, -kaydirma)
 
-metin = "Merhaba"
+metin = "Siber"
 kaydirma = 3
 sifreli_metin = sezar_sifreleme(metin, kaydirma)
 print("Şifreli Metin:", sifreli_metin)
